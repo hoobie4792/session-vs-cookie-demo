@@ -7,9 +7,10 @@ The session cookie is stored in _cookie_v_session_demo_session, and the regular 
 
 ## Instructions
 
-1. Start the rails server (rails s)
-2. Go to [localhost:3000](localhost:3000) on your web browser
-3. Play around and watch the session and value cookies update
+1. Fork and clone this repo
+2. Start the rails server (rails s)
+3. Go to [localhost:3000](localhost:3000) on your web browser
+4. Play around and watch the session and value cookies update
 
 ## What I learned / observed
 * You can store much more data in regular cookies
