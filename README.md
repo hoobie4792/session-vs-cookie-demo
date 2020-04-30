@@ -3,14 +3,17 @@
 ## Oversview
 This is a very simple app that stores the same data into an unencrypted and session cookie. The idea to see the differences between when they both contain the same data.
 
-The session cookie is stored in _cookie_v_session_demo_session, and the regular cookie is stored in value. You can access these by opening the developer console on chrome and selection Appliation -> Cookies
+The session cookie is stored in _cookie_v_session_demo_session, and the regular cookie is stored in value. You can access these by opening the developer console on chrome and selection Appliation -> Cookies.
+
+Refreshing the page will add more data to both cookies. The clear button will clear the cookies' data.
 
 ## Instructions
 
 1. Fork and clone this repo
-2. Start the rails server (rails s)
-3. Go to [localhost:3000](localhost:3000) on your web browser
-4. Play around and watch the session and value cookies update
+2. Run yarn install --check-files
+3. Start the rails server (rails s)
+4. Go to [localhost:3000](localhost:3000) on your web browser
+5. Play around and watch the session and value cookies update
 
 ## What I learned / observed
 * You can store much more data in regular cookies
