@@ -1,0 +1,23 @@
+<h1>List of strings</h1>
+
+<h4>Session Variable</h4>
+<p style="word-wrap: break-word">Actual variable: <%= session[:value] %></p>
+<h6>Shown as list:</h6>
+<ul>
+  <% @session_vals.each do |value| %>
+    <li><%= value %></li>
+  <% end %>
+</ul>
+
+<h4>Cookie Variable</h4>
+<p style="word-wrap: break-word">Actual variable: <%= cookies[:value] %></p>
+<h6>Shown as list:</h6>
+<ul>
+  <% @cookie_vals.each do |value| %>
+    <li><%= value %></li>
+  <% end %>
+</ul>
+
+<%= form_tag '/clear', :method => :post do %>
+  <%= submit_tag 'Clear' %>
+<% end %>
